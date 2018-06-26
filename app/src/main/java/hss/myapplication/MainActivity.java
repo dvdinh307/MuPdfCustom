@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Uri uri = Uri.parse(fi.getAbsolutePath());
 
                 //Uri uri = Uri.parse("file:///android_asset/" + TEST_FILE_NAME);
-                Intent intent = new Intent(MainActivity.this, com.artifex.mupdflib.MuPDFActivity.class);
+                Intent intent = new Intent(MainActivity.this, com.artifex.mupdflib.CustomMuPDFActivity.class);
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(uri);
 

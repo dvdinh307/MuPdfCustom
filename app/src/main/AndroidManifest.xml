@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="hss.myapplication">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -18,19 +19,20 @@
         </activity>
         <activity
             android:name="com.artifex.mupdflib.MuPDFActivity"
-            android:theme="@style/AppReaderTheme"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"
+            android:theme="@style/AppReaderTheme"/>
+        <activity
+            android:name="com.artifex.mupdflib.CustomMuPDFActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppReaderTheme"/>
         <activity
             android:name="com.artifex.mupdflib.PrintDialogActivity"
-            android:theme="@style/AppReaderTheme"
-            android:label="@string/print">
-        </activity>
+            android:label="@string/print"
+            android:theme="@style/AppReaderTheme"/>
         <activity
             android:name="com.artifex.mupdflib.PDFPreviewGridActivity"
-            android:theme="@style/AppReaderTheme"
-            android:label="preview label">
-        </activity>
+            android:label="preview label"
+            android:theme="@style/AppReaderTheme"/>
     </application>
 
 </manifest>
