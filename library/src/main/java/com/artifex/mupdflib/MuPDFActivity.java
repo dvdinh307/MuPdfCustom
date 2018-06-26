@@ -501,7 +501,7 @@ public class MuPDFActivity extends Activity implements FilePicker.FilePickerSupp
 		mOrientation = getResources().getConfiguration().orientation;
 
 		if(mOrientation == Configuration.ORIENTATION_LANDSCAPE) {
-			core.setDisplayPages(2);
+			core.setDisplayPages(1);
 		} else {
 			core.setDisplayPages(1);
 		}

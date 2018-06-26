@@ -34,7 +34,7 @@ public class ReaderView extends AdapterView<Adapter> implements GestureDetector.
 	private static final float MAX_SCALE = 4.0f;
 	private static final float REFLOW_SCALE_FACTOR = 0.5f;
 	
-	private boolean HORIZONTAL_SCROLLING = true;
+	private boolean HORIZONTAL_SCROLLING = false;
 
 	private Adapter mAdapter;
 	private int mCurrent; // Adapter's index for the current view
